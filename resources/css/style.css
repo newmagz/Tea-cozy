@@ -7,13 +7,14 @@ body{
   text-align: center;
 }
 .header{
-  height: 69px
+  height: 69px;
   border-bottom: 1px solid seashell;
   position: fixed;
   display: flex;
   z-index: 999;
   top: 0px;
   align-items: space-between;
+  background-color: black;
 }
 .logo{
   display: flex;
@@ -78,7 +79,7 @@ nav span{
 }
 .location{
   display: flex;
-  wisth: 300px;
+  width: 300px;
   background-color: black;
   z-index: 1;
 }
