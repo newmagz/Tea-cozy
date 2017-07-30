@@ -13,6 +13,7 @@ body{
   display: flex;
   z-index: 999;
   top: 0px;
+  width: 100%;
   align-items: space-between;
   background-color: black;
 }
@@ -73,15 +74,20 @@ nav span{
   display: flex;
   height: 500px;
   width:1000px;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   background-image: url("/Tea-cozy/resources/images/locations-background.jpg");
 }
 .location{
   display: flex;
+  flex-direction: column;
   width: 300px;
   background-color: black;
   z-index: 1;
+}
+.footer{
+  width:100%;
 }
 .copyright{
   text-align: left;
