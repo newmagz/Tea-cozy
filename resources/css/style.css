@@ -106,6 +106,9 @@ h2#locations {
   z-index: 1;
   opacity: 1;
 }
+.location span, .location h3{
+  margin: 15px;
+}
 footer{
   width:100%;
 }
