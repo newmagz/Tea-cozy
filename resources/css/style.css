@@ -6,12 +6,14 @@ body{
   opacity: 0.9;
   text-align: center;
 }
-header{
+.header{
   height: 69px
   border-bottom: 1px solid seashell;
   position: fixed;
   display: flex;
+  z-index: 999;
   top: 0px;
+  align-items: space-between;
 }
 .logo{
   display: flex;
@@ -21,7 +23,7 @@ header{
   height: 50px;
   margin-left: 10px;
 }
-nav {
+.nav-items {
   text-align: right;
 }
 nav span{
@@ -31,6 +33,7 @@ nav span{
 }
 .main-content{
   display: flex;
+  flex-direction: column;
   margin-top: 69px;
 }
 .featured-image{
@@ -39,7 +42,7 @@ nav span{
   flex-direction: column;
   height: 700px;
   width: 1200px;
-  background-image: url("/Tea-Cozy/resources/images/mission-background.jpg")
+  background-image: url("/Tea-cozy/resources/images/mission-background.jpg")
 }
 .mission{
   display: flex;
@@ -67,7 +70,7 @@ nav span{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: url("/Tea-Cozy/resources/images/locations-background.jpg")
+  background-image: url("/Tea-cozy/resources/images/locations-background.jpg")
 }
 .location{
   display: flex;
