@@ -1,0 +1,81 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+header{
+  height: 69px
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  top: 0px;
+}
+.logo{
+  display: flex;
+
+}
+.logo img{
+  height: 50px;
+  margin-left: 10px;
+}
+nav {
+  text-align: right;
+}
+nav span{
+  display: inline-block;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+.main-content{
+  display: flex;
+  margin-top: 69px;
+}
+.featured-image{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+  width: 1200px;
+  background-image: url("/Tea-Cozy/resources/images/mission-background.jpg")
+}
+.mission{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  z-index: 1;
+}
+.tea-of-the-month{
+  display: flex;
+  width: 1000px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.featured-tea{
+  display: flex;
+}
+.featured-tea img{
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+.locations{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("/Tea-Cozy/resources/images/locations-background.jpg")
+}
+.location{
+  display: flex;
+  wisth: 300px;
+  background-color: black;
+  z-index: 1;
+}
+.copyright{
+  text-align: left;
+  margin-left: 20px;
+}
