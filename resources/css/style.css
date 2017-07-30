@@ -35,14 +35,15 @@ nav span{
   display: flex;
   flex-direction: column;
   margin-top: 69px;
+  align-items: center;
 }
 .featured-image{
   display: flex;
-  align-items: center;
+  justify-content: center;
   flex-direction: column;
   height: 700px;
   width: 1200px;
-  background-image: url("/Tea-cozy/resources/images/mission-background.jpg")
+  background-image: url("/Tea-cozy/resources/images/mission-background.jpg");
 }
 .mission{
   display: flex;
@@ -60,6 +61,7 @@ nav span{
 }
 .featured-tea{
   display: flex;
+  width: 300px;
 }
 .featured-tea img{
   height: 200px;
@@ -68,9 +70,11 @@ nav span{
 }
 .locations{
   display: flex;
+  height: 500px;
+  width:1000px;
   align-items: center;
   justify-content: space-between;
-  background-image: url("/Tea-cozy/resources/images/locations-background.jpg")
+  background-image: url("/Tea-cozy/resources/images/locations-background.jpg");
 }
 .location{
   display: flex;
