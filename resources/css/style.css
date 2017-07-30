@@ -6,7 +6,7 @@ body{
   opacity: 0.9;
   text-align: center;
 }
-h2, h3, h4, span{
+h2, h3, h4{
   margin: 10px;
 }
 h5{
@@ -35,7 +35,7 @@ h5{
 nav span a{
   display: inline-block;
   text-decoration: underline;
-  margin-right: 10px;
+  padding-right: 15px;
   color: white;
 }
 .main-content{
@@ -71,6 +71,9 @@ h2#featured-tea{
 }
 h4#what-is-steeping{
   width:100%;
+}
+#featured{
+  padding-top:70px;
 }
 .featured-tea{
   display: flex;
