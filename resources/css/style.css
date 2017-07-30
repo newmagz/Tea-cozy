@@ -14,7 +14,7 @@ body{
   z-index: 999;
   top: 0px;
   width: 100%;
-  align-items: space-between;
+  justify-content: space-between;
   background-color: black;
 }
 .logo{
@@ -25,13 +25,11 @@ body{
   height: 50px;
   margin-left: 10px;
 }
-.nav-items {
-  text-align: right;
-}
-nav span{
+nav span a{
   display: inline-block;
   text-decoration: underline;
   margin-right: 10px;
+  color: white;
 }
 .main-content{
   display: flex;
@@ -61,9 +59,16 @@ nav span{
   justify-content: space-between;
   flex-wrap: wrap;
 }
+h2#featured-tea{
+  width:100%
+}
+h4#what-is-steeping{
+  width:100%;
+}
 .featured-tea{
   display: flex;
   width: 300px;
+  flex-direction: column;
 }
 .featured-tea img{
   height: 200px;
@@ -73,11 +78,14 @@ nav span{
 .locations{
   display: flex;
   height: 500px;
-  width:1000px;
+  width:1200px;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-image: url("/Tea-cozy/resources/images/locations-background.jpg");
+}
+h2#locations {
+    width: 100%;
 }
 .location{
   display: flex;
@@ -86,10 +94,15 @@ nav span{
   background-color: black;
   z-index: 1;
 }
-.footer{
+footer{
   width:100%;
+}
+.footer-info{
+  width: 100%;
+  display: flex;
 }
 .copyright{
   text-align: left;
+  display: flex
   margin-left: 20px;
 }
